@@ -23,13 +23,13 @@ La aplicación incorpora funcionalidades dinámicas como marcar tareas como comp
 1. Clonar el repositorio:
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/luisneira-hub/webipg.git
 ```
 
 2. Acceder a la carpeta del proyecto:
 
 ```bash
-cd nombre-del-proyecto
+cd webipg
 ```
 
 3. Instalar dependencias:
