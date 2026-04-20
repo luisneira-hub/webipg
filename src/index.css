@@ -1,0 +1,62 @@
+html, body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: all 0.3s ease;
+}
+
+/* 🌞 modo claro */
+.light-mode {
+  background: linear-gradient(to right, #f4f4f4, #dfe9f3);
+  color: #000;
+}
+
+/* 🌙 modo oscuro */
+.dark-mode {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.dark-mode .container {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  margin: 10px 0;
+  padding: 10px;
+  background: #eee;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.dark-mode li {
+  background: #333;
+}
+
+/* ✅ tarea completada */
+.done {
+  background: #4caf50 !important;
+  color: white;
+  text-decoration: line-through;
+}
